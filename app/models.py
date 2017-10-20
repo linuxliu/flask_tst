@@ -1,11 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash,check_password_hash
-from flask_script import Manager
-from flask import Flask
 from flask_login import UserMixin
-from . import login_manager
-
-db = SQLAlchemy()
+from . import login_manager,db
 
 
 class User(UserMixin,db.Model):
