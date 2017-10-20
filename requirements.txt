@@ -1,0 +1,9 @@
+Flask-login
+Werkzeug
+itsdangerous
+Flask-Bootstrap
+Flask-WTF
+Flask-script
+Flask-Mail
+Flask-migrate
+pymysql
